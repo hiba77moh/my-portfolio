@@ -1,8 +1,8 @@
 export const personalData = {
   name: "HIBA",
-  profile: '/profile.png',
-  designation: "Software Developer",
-  description: "My name is HIBA. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  profile: '/profile.jpg',
+  designation: "AI Engineer",
+  description: "My name is HIBA. I am a final-year AI student specializing in Machine Learning, with practical experience in Natural Language Processing (NLP) and Computer Vision. I focus on building real-world solutions using neural networks and deep learning, applying these techniques to tasks such as data analysis, pattern recognition, and intelligent system design. Through hands-on projects, I have developed strong skills in Python, TensorFlow, and data processing, with an emphasis on writing efficient, scalable, and clean implementations. I am currently looking for an entry-level role in Machine Learning or Data Analysis, where I can apply my skills in a real production environment and grow as an AI engineer.",
   email: 'abusaid7388@gmail.com',
   phone: '+8801608797655',
   address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
