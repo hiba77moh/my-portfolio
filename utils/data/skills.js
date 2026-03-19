@@ -17,22 +17,13 @@ export const skillsData = {
     "Pandas",
     "NumPy"
   ],
-  "Programming Languages": [
+  "Engineering & Tools": [
     "Python",
     "Java",
-    "C"
-  ],
-  "Backend": [
-    "Django",
-    "Laravel"
-  ],
-  "Tools": [
+    "C++",
+    "Laravel",
     "Git",
-    "GitHub"
-  ],
-  "Web": [
-    "HTML",
-    "CSS",
+    "GitHub",
     "JavaScript"
   ]
 };

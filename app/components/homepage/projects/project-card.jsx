@@ -64,6 +64,29 @@ function ProjectCard({ project }) {
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
       </div>
+      <div className="border-t-[2px] border-indigo-900 px-4 lg:px-8 py-3 lg:py-4 flex flex-col gap-2">
+        {project.code && (
+          <a
+            href={project.code}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm lg:text-base transition-colors duration-300 hover:text-pink-500"
+          >
+            <span className="text-amber-300">GitHub Link: </span>
+            <span className="text-white underline">{project.code}</span>
+          </a>
+        )}
+        {project.demo && (
+          <a
+            href={project.demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#16f2b3] hover:text-pink-500 text-sm lg:text-base transition-colors duration-300"
+          >
+            Live Demo: <span className="text-cyan-400 underline">{project.demo}</span>
+          </a>
+        )}
+      </div>
     </div>
   );
 };

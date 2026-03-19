@@ -9,10 +9,7 @@ function Skills() {
   const categoryStyles = [
     'text-blue-400',
     'text-purple-400',
-    'text-orange-400',
-    'text-gray-400',
-    'text-slate-400',
-    'text-emerald-400'
+    'text-orange-400'
   ];
 
   return (
@@ -41,7 +38,7 @@ function Skills() {
             <h3 className={`text-2xl font-semibold mb-6 ${categoryStyles[catIndex % categoryStyles.length]}`}>
               {category}
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
               {skillsData[category].map((skill, id) => (
                 <div className="w-full h-fit flex flex-col items-center justify-center transition-all duration-500 rounded-lg group relative hover:scale-[1.05] cursor-pointer"
                   key={id}>
@@ -51,17 +48,17 @@ function Skills() {
                         <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent" />
                       </div>
                     </div>
-                    <div className="flex flex-col items-center justify-center gap-3 p-6">
-                      <div className="h-8 sm:h-10">
+                    <div className="flex flex-col items-center justify-center gap-2 p-4">
+                      <div className="h-6 sm:h-8">
                         <Image
-                          src={skillsImage(skill)?.src || '/path/to/default/icon.svg'}
+                          src={skillsImage(skill)?.src}
                           alt={skill}
-                          width={40}
-                          height={40}
+                          width={32}
+                          height={32}
                           className="h-full w-auto rounded-lg"
                         />
                       </div>
-                      <p className="text-white text-sm sm:text-lg text-center">
+                      <p className="text-white text-xs sm:text-sm text-center">
                         {skill}
                       </p>
                     </div>

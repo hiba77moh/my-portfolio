@@ -58,13 +58,23 @@ function Experience() {
                         <div className="text-violet-500  transition-all duration-300 hover:scale-125">
                           <BsPersonWorkspace size={36} />
                         </div>
-                        <div>
+                        <div className="w-full">
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">
                             {experience.title}
                           </p>
-                          <p className="text-sm sm:text-base">
+                          <p className="text-sm sm:text-base mb-3">
                             {experience.company}
                           </p>
+                          {experience.location && (
+                            <p className="text-xs sm:text-sm text-gray-400 mb-2">
+                              📍 {experience.location}
+                            </p>
+                          )}
+                          {experience.description && (
+                            <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
+                              {experience.description}
+                            </p>
+                          )}
                         </div>
                       </div>
                     </div>
