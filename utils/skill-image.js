@@ -238,10 +238,28 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
-    case 'pandas':
-      return pandas;
+    case 'scikit-learn':
+      return scikitlearn;
     case 'sklearn':
       return scikitlearn;
+    case 'hugging face':
+      return python; // placeholder
+    case 'machine learning':
+      return python; // placeholder
+    case 'deep learning':
+      return tensorflow; // placeholder
+    case 'nlp':
+      return python; // placeholder
+    case 'computer vision':
+      return opencv; // placeholder
+    case 'llms':
+      return python; // placeholder
+    case 'rag':
+      return python; // placeholder
+    case 'ai agents':
+      return python; // placeholder
+    case 'github':
+      return git; // placeholder
     case '.net':
       return dotnet;
     case '.net core':

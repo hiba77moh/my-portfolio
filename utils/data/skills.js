@@ -1,21 +1,41 @@
-export const skillsData = [
-  'Python',
-  'C++',
-  'Java',
-  'PHP',
-  'Laravel',
-  'Numpy',  
-  'OpenCV',
-  'Pytorch',
-  'Tensorflow',
-  'HTML',
-  'CSS',
-  'Javascript',
-  'Tailwind',
-  'MySQL',
-  'Git',
-  'Firebase',
-]
+export const skillsData = {
+  "AI & Machine Learning": [
+    "Machine Learning",
+    "Deep Learning",
+    "NLP",
+    "Computer Vision",
+    "LLMs",
+    "RAG",
+    "AI Agents"
+  ],
+  "Libraries & Frameworks": [
+    "PyTorch",
+    "TensorFlow",
+    "Scikit-learn",
+    "Hugging Face",
+    "OpenCV",
+    "Pandas",
+    "NumPy"
+  ],
+  "Programming Languages": [
+    "Python",
+    "Java",
+    "C"
+  ],
+  "Backend": [
+    "Django",
+    "Laravel"
+  ],
+  "Tools": [
+    "Git",
+    "GitHub"
+  ],
+  "Web": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ]
+};
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
