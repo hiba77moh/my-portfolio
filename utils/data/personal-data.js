@@ -2,16 +2,15 @@ export const personalData = {
   name: "HIBA",
   profile: '/profile.jpg',
   designation: "AI Engineer",
-  description: "My name is HIBA. I am a final-year AI student specializing in Machine Learning, with practical experience in Natural Language Processing (NLP) and Computer Vision. I focus on building real-world solutions using neural networks and deep learning, applying these techniques to tasks such as data analysis, pattern recognition, and intelligent system design. Through hands-on projects, I have developed strong skills in Python, TensorFlow, and data processing, with an emphasis on writing efficient, scalable, and clean implementations. I am currently looking for an entry-level role in Machine Learning or Data Analysis, where I can apply my skills in a real production environment and grow as an AI engineer.",
+  description: "Hi, I'm Hiba — a final-year AI student at Damascus University focused on building real-world machine learning solutions. I work with technologies like deep learning, NLP, and computer vision to turn ideas into practical systems, not just experiments. I'm especially interested in intelligent systems and AI-driven products, and I'm currently looking for an entry-level role where I can grow as an AI engineer and contribute to real-world projects.",
   email: 'hiba.zaki.mahmoud@gmail.com',
   phone: '+963 992783753',
   address: 'Damascus, Syria',
   github: 'https://github.com/hiba77moh',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing",
+  facebook: 'https://www.facebook.com/share/14XQw1ginNP/',
+  linkedIn: 'https://www.linkedin.com/in/hiba-mahmoud-a5a990328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+  // resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing",
+resume: "https://drive.google.com/file/d/1G-CspeZWdGOkvTQq48DHvNA6jtx-Tmwt/view",
+
+// https://drive.google.com/file/d/1G-CspeZWdGOkvTQq48DHvNA6jtx-Tmwt/view?usp=sharing
 }
