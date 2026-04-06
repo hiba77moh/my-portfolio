@@ -1,6 +1,6 @@
 export const personalData = {
   name: "HIBA",
-  profile: '/profile.jpg',
+  profile: '/profile.png',
   designation: "AI Engineer",
   description: "Hi, I'm Hiba — a final-year AI student at Damascus University focused on building real-world machine learning solutions. I work with technologies like deep learning, NLP, and computer vision to turn ideas into practical systems, not just experiments. I'm especially interested in intelligent systems and AI-driven products, and I'm currently looking for an entry-level role where I can grow as an AI engineer and contribute to real-world projects.",
   email: 'hiba.zaki.mahmoud@gmail.com',

@@ -23,15 +23,18 @@ function AboutSection() {
           </p>
         </div>
         <div className="flex justify-center order-1 lg:order-2">
-          <div className="relative w-72 h-72 lg:w-80 lg:h-80 overflow-hidden rounded-lg">
-            <Image
-              src={personalData.profile}
-              alt={personalData.name}
-              fill
-              quality={100}
-              sizes="(min-width: 1024px) 320px, 280px"
-              className="object-cover transition-all duration-1000 hover:scale-110 cursor-pointer"
-            />
+          <div className="relative w-72 h-72 lg:w-80 lg:h-80 rounded-lg overflow-hidden bg-gradient-to-br from-[#1a1443] via-[#16f2b3]/10 to-[#0d1224] p-1">
+            <div className="relative w-full h-full rounded-lg overflow-hidden">
+              <Image
+                src={personalData.profile}
+                width={500}
+                height={500}
+                alt={personalData.name}
+                unoptimized
+                priority
+                className="transition-all duration-1000 hover:scale-110 cursor-pointer w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>
