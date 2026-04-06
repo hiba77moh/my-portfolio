@@ -10,7 +10,7 @@ export const personalData = {
   facebook: 'https://www.facebook.com/share/14XQw1ginNP/',
   linkedIn: 'https://www.linkedin.com/in/hiba-mahmoud-a5a990328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   // resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing",
-resume: "https://drive.google.com/file/d/1G-CspeZWdGOkvTQq48DHvNA6jtx-Tmwt/view",
-
+// resume: "https://drive.google.com/file/d/1G-CspeZWdGOkvTQq48DHvNA6jtx-Tmwt/view",
+  resume: "https://drive.google.com/file/d/1q9QCFwLfTqix2BxSEkBUfQH-n0HJwJ6g/view?usp=sharing"
 // https://drive.google.com/file/d/1G-CspeZWdGOkvTQq48DHvNA6jtx-Tmwt/view?usp=sharing
 }
