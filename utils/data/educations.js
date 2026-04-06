@@ -1,20 +1,14 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
+    title: "BSc in Information Technology Engineering",
     duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    institution: "Faculty of Engineering, Damascus University — Specialization in Artificial Intelligence",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
-  },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "High School Diploma",
+    duration: "2019",
+    institution: "Al-Awael School, Damascus, Syria — Grade 95.7%",
   }
 ]

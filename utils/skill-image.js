@@ -32,6 +32,7 @@ import html from '../app/assets/svg/skills/html.svg';
 import illustrator from '../app/assets/svg/skills/illustrator.svg';
 import ionic from '../app/assets/svg/skills/ionic.svg';
 import java from '../app/assets/svg/skills/java.svg';
+import laravel from '../app/assets/svg/skills/laravel.svg';
 import javascript from '../app/assets/svg/skills/javascript.svg';
 import julia from '../app/assets/svg/skills/julia.svg';
 import kotlin from '../app/assets/svg/skills/kotlin.svg';
@@ -108,6 +109,8 @@ export const skillsImage = (skill) => {
       return angular;
     case 'javascript':
       return javascript;
+    case 'pandas':
+      return pandas;
     case 'next js':
       return nextJS;
     case 'nuxt js':
@@ -124,6 +127,8 @@ export const skillsImage = (skill) => {
       return bootstrap;
     case 'bulma':
       return bulma;
+    case 'laravel':
+      return laravel;
     case 'capacitorjs':
       return capacitorjs;
     case 'coffeescript':

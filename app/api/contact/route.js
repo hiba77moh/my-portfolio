@@ -2,6 +2,8 @@ import axios from 'axios';
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
+const PORTFOLIO_EMAIL = 'hiba.zaki.mahmoud@gmail.com';
+
 // Create and configure Nodemailer transporter
 const transporter = nodemailer.createTransport({
   service: 'gmail',
@@ -9,7 +11,7 @@ const transporter = nodemailer.createTransport({
   port: 587,
   secure: false, 
   auth: {
-    user: process.env.EMAIL_ADDRESS,
+    user: PORTFOLIO_EMAIL,
     pass: process.env.GMAIL_PASSKEY, 
   },
 });
