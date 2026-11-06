@@ -2,7 +2,7 @@ export const educations = [
   {
     id: 1,
     title: "BSc in Information Technology Engineering",
-    duration: "2020 - Present",
+    duration: "2020 - 2026",
     institution: "Faculty of Engineering, Damascus University — Specialization in Artificial Intelligence",
   },
   {
